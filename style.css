@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -44,6 +44,25 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.card-2 {
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    padding: 1rem;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 img {
+    width: 70%;
+}
+
+.card-2 strong {
+    font-weight: 800;
 }
 footer {
     font-family: 'Rajdhani', sans-serif;
